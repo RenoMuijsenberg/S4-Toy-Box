@@ -1,0 +1,20 @@
+.searchBarContainer {
+    padding: 1em;
+    background-color: white;
+    border-radius: 10px;
+    border: black 1px solid;
+    display: flex;
+    align-items: center;
+}
+
+.searchInput {
+    margin-left: 1em;
+    background-color: white;
+    width: 100%;
+    color: black;
+    border: none;
+}
+
+.searchInput:focus {
+    outline: none;
+}
