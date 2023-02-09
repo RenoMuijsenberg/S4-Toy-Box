@@ -1,4 +1,4 @@
-import {MapContainer, Marker, Popup, TileLayer, useMap} from 'react-leaflet'
+import {MapContainer, Marker, TileLayer} from 'react-leaflet'
 import Navbar from "../components/navbar";
 import SearchBar from "../components/SearchBar";
 import {LatLng} from "leaflet";
@@ -20,7 +20,6 @@ const iconTeddyBig = new L.Icon({
 });
 
 const Map = () => {
-    const position = new LatLng(51.505, -0.09)
     return (
         <div className={styles.mapPage}>
             <SearchBar/>
