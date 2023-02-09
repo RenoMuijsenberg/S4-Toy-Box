@@ -9,7 +9,7 @@
 
 .columnRight {
     display: flex;
-    align-items: end;
+    align-items: flex-end;
 }
 .row {
     background-color: #A9CDFF;
