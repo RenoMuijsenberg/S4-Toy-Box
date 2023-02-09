@@ -1,11 +1,21 @@
 import React from 'react';
 import './App.css';
-import SearchBar from "./components/SearchBar";
+import {BrowserRouter, Route, Routes} from "react-router-dom";
+import Map from "./pages/map";
+import Home from "./pages/home";
+
 
 function App() {
-  return (
-    <SearchBar />
-  );
+    return (
+        <>
+            <BrowserRouter>
+                <Routes>
+                    <Route path="" element={<Home/>}/>
+                    <Route path="map" element={<Map/>}/>
+                </Routes>
+            </BrowserRouter>
+        </>
+    );
 }
 
 export default App;
