@@ -20,7 +20,7 @@ const ToyListViewItem = (Props: ToyInfo) => {
                 <h6>Description: <b>{Props.description}</b></h6>
             </div>
             <div className={Styles.columnRight}>
-                <button className={Styles.buttonReserve}>Reserve Now</button>
+                <button className={Styles.buttonReserve}>Reserve</button>
             </div>
         </div>
     );
