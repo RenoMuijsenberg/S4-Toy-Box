@@ -1,0 +1,84 @@
+@font-face {
+    font-family: "test";
+    src: url("../../fonts/FeelfreePersonalUseRegular-lg2Bw.ttf") format("truetype");
+}
+
+.loginPage {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.topContainer {
+    position: relative;
+    height: 45%;
+}
+
+.heading {
+    text-align: center;
+    font-family: "test";
+    font-size: 45px;
+}
+
+.teddy {
+    position: absolute;
+    object-fit: contain;
+    width: 300px;
+    height: 330px;
+    right: -50px;
+    bottom: -100px;
+}
+
+.bottomContainer {
+    height: 55%;
+    background-color: #A9CDFF;
+    border-radius: 25px 25px 0px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: center;
+
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.formContainer input {
+    height: 38px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+}
+
+.label {
+    margin-top: .5em;
+}
+
+.button {
+    width: 100%;
+    margin-top: 1em;
+    height: 49px;
+    background: #48ADE7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 7px;
+    color: white;
+    border: none;
+}
+
+.bottomText {
+    text-align: center;
+}
+
+.bottomText a {
+    color: black;
+}
+
+.loginHeading {
+    margin: .25em 0;
+    text-align: center;
+}
