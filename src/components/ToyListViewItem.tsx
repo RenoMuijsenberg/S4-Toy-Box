@@ -12,7 +12,7 @@ const ToyListViewItem = (Props: ToyInfo) => {
     return(
         <div className={Styles.row}>
             <div className={Styles.columnLeft}>
-                <img src={Props.imgSrc} />
+                <img src={Props.imgSrc} alt={"Toy for sale"}/>
             </div>
             <div className={Styles.columnMiddle}>
                 <h6>Name: <b>{Props.name}</b></h6>
