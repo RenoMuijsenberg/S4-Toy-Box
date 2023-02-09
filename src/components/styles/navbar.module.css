@@ -10,6 +10,7 @@
     padding: 5px 0;
     border-radius: 15px;
     margin-bottom: 10px;
+    z-index: 999;
 }
 .navitem{
     position: relative;

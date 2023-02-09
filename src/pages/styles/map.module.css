@@ -1,0 +1,10 @@
+.map{
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 55px);
+}
+
+.mapPage{
+    height: 100%;
+    width: 100%;
+}
